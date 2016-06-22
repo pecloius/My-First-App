@@ -33,7 +33,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="highlightedColor" red="0.218328058059856" green="1" blue="0.23953052058134172" alpha="1" colorSpace="calibratedRGB"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="115" y="129" width="170" height="320"/>
+                                    <rect key="frame" x="32" y="129" width="336" height="320"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LAI-fj-rhD">
@@ -45,7 +45,7 @@
                                     <color key="titleColor" red="1" green="0.17941336059472957" blue="0.1518527379887864" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="32" y="500" width="142" height="57"/>
+                                    <rect key="frame" x="32" y="500" width="150" height="57"/>
                                 </variation>
                                 <connections>
                                     <action selector="decreaseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ivc-ok-97l"/>
@@ -57,7 +57,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Increase"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="226" y="500" width="142" height="57"/>
+                                    <rect key="frame" x="218" y="500" width="150" height="57"/>
                                 </variation>
                                 <connections>
                                     <action selector="increaseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N6l-L7-Wwv"/>
