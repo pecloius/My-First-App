@@ -47,6 +47,9 @@
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="32" y="500" width="142" height="57"/>
                                 </variation>
+                                <connections>
+                                    <action selector="decreaseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ivc-ok-97l"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MMj-Xr-C4y">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -56,8 +59,12 @@
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="226" y="500" width="142" height="57"/>
                                 </variation>
+                                <connections>
+                                    <action selector="increaseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N6l-L7-Wwv"/>
+                                </connections>
                             </button>
                         </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="jcl-pH-wYK"/>
@@ -75,6 +82,9 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="numberLabel" destination="fBd-on-pdV" id="QJo-WT-aae"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
